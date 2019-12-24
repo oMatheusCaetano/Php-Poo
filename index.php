@@ -1,6 +1,12 @@
 
     <?php 
-        require_once("./Invoice.php");
-        $invoice = new Invoice(12345, "Descição do produto", 10, 1000);
-        printf("%s = %s <br> TOTAL: %.2f ", $invoice->getNumero(), $invoice->getDescricao(), $invoice->getInvoiceAmount())
+        require_once("./exercicio-06/Empregado.php");
+        $empregado = new Empregado("Marcos", "Almeida", 1000);
+        print("Nome = {$empregado->getNome()} <br>
+        Sobrenome = {$empregado->getSobrenome()} <br>
+        Salário = {$empregado->getSalario()}<br>
+        Salário Anual = {$empregado->salarioAnual()}<br>");
+        $empregado->darAumento();
+        print("Salário com aumento = {$empregado->getSalario()}<br>
+        Salário anual com aumento = {$empregado->salarioAnual()}");
     ?>
