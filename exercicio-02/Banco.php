@@ -6,7 +6,7 @@ class Banco {
     public function fecharConta($conta) {
         for ($i = 0; $i < count($this->contas); $i++) { 
             if ($this->contas[$i]->getNumero() == $conta->getNumero()) {
-                $this->contas[$i] = null;
+                unset($this->contas[$i]);
                 return true;   
             }
         }
@@ -22,7 +22,7 @@ class Banco {
 
     private function contaExiste($numero) {
         foreach ($this->contas as $conta) {
-            if ($conta.getNumero() == $numero) {
+            if ($conta->getNumero() == $numero) {
                 return true;
             }
         }
