@@ -13,9 +13,7 @@ class Invoice {
         $this->setPrice($price);
     }
 
-    public function getInvoiceAmount() {
-        return $this->getQuantity() * $this->getPrice();
-    }
+    public function getInvoiceAmount() { return $this->getQuantity() * $this->getPrice(); }
 
     public function getCode() { return $this->code; }
 

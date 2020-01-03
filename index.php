@@ -2,11 +2,11 @@
 <pre>
 <?php
 
-require_once("./exercicio-01/Invoice.php");
+require_once("./exercicio-02/Employee.php");
 
-$invoice = new Invoice(1, 20, 10, "Product Description");
-print($invoice->getInvoiceAmount() . "<br>");
-print_r($invoice);
+$em = new Employee(1000, "Name", "Last Name");
+$em->salaryIncrease();
+print_r($em);
 
 ?>
 </pre>
