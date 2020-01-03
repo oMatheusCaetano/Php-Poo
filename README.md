@@ -18,7 +18,7 @@ da fatura (isso é, multiplica a quantidade pelo preço por item) e depois
 retorna o valor.
 [>>IR PARA O CÓDIGO<<](https://github.com/CaetanoMatheus/php-poo/tree/master/exercicio-01)
 
-**Exercício 02:** * A fim de representar empregados em uma firma, crie uma classe chamada Empregado que inclui as três informações a seguir como atributos:
+**Exercício 02:** A fim de representar empregados em uma firma, crie uma classe chamada Empregado que inclui as três informações a seguir como atributos:
  
  * um primeiro nome
  * um sobrenome
@@ -29,3 +29,9 @@ retorna o valor.
  Se o salário mensal não for positivo, configure-o como 0.0.
  Crie um método que exibe o salário anual e um que dê 10% de aumento no salário.
  [>>IR PARA O CÓDIGO<<](https://github.com/CaetanoMatheus/php-poo/tree/master/exercicio-02)
+
+**Exercício 03:** Escreva uma classe Contador, que encapsule um valor usado para contagem de itens ou eventos. A classe deve oferecer métodos que devem:
+* Zerar;
+* Incrementar;
+* Retornar o valor do contador.
+ [>>IR PARA O CÓDIGO<<](https://github.com/CaetanoMatheus/php-poo/tree/master/exercicio-03)

@@ -2,10 +2,10 @@
 <pre>
 <?php
 
-require_once("./exercicio-02/Employee.php");
+require_once("./exercicio-03/Counter.php");
 
-$em = new Employee(1000, "Name", "Last Name");
-$em->salaryIncrease();
+$em = new Counter();
+$em->incrementCounter(6);
 print_r($em);
 
 ?>
