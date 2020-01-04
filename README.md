@@ -46,7 +46,7 @@ Além dos atributos por você identificados, a classe deve oferecer os seguintes
 * Método que permita a criação de um novo ponto no mesmo local do ponto que recebeu a mensagem(clone).
  [>>IR PARA O CÓDIGO<<](https://github.com/CaetanoMatheus/php-poo/tree/master/exercicio-04)
 
-**Exercício 05** Escreva uma classe que represente um circulo no plano cartesiano.
+**Exercício 05:** Escreva uma classe que represente um circulo no plano cartesiano.
 Forneça os seguintes membros de classe:
 * Um contrutor que incialize o ponto em um local por parâmetros ou na origem do espaço;
 * Métodos getter e setter.
@@ -54,3 +54,10 @@ Forneça os seguintes membros de classe:
 * Método para mover o circulo  a partir de outro ponto ou para a origem do espaço.
 * Método que retorna a àrea do círculo.
 [>>IR PARA O CÓDIGO<<](https://github.com/CaetanoMatheus/php-poo/tree/master/exercicio-05)
+
+**Exercício 06:** Crie uma classe para representar datas. Represente uma data usando três atributos: o dia, o mês, e o ano. Sua classe deve ter um construtor que inicializa os três atributos e verifica a validade dos valores fornecidos. 
+Forneça um método set um get para cada 
+atributo. 
+Forneça o método date para retornar uma representação da data. Considere que a data deve ser formatada mostrando o dia, o mês e o ano separados por barra (/). 
+Forneça uma operação para avançar uma data para o dia seguinte.
+[>>IR PARA O CÓDIGO<<](https://github.com/CaetanoMatheus/php-poo/tree/master/exercicio-06)

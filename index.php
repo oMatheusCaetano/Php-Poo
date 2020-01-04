@@ -2,13 +2,10 @@
 <pre>
 <?php
 
-require_once("./exercicio-05/Circle.php");
+require_once("./exercicio-06/Date.php");
 
-$p1 = new Circle(5, 4, 1);
-$p2 = new Circle(1);
-$p2->move($p1);
-print_r($p1);
-print_r($p2);
+$p1 = new Date(31,4,-1);
+print($p1->showDate());
 
 ?>
 </pre>
