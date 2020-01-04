@@ -2,13 +2,13 @@
 <pre>
 <?php
 
-require_once("./exercicio-04/Point2D.php");
+require_once("./exercicio-05/Circle.php");
 
-$p1 = new Point2D(5, 4);
-$p2 = new Point2D();
+$p1 = new Circle(5, 4, 1);
+$p2 = new Circle(1);
+$p2->move($p1);
 print_r($p1);
 print_r($p2);
-print_r($p1->distance($p2)["x"]);
 
 ?>
 </pre>
