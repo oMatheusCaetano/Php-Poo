@@ -2,23 +2,22 @@
 <pre>
 <?php
 
-require_once("./exercicio-07/House.php");
+require_once("./exercicio-08/Country.php");
 require_once("./exercicio-07/Door.php");
 
-$doors = [
-    new Door(),
-    new Door(),
-    new Door()
-];
+$c1 = new Country("Brasil", "Brasilia", 10000);
+$c2 = new Country("Brasil", "Brasilia", 15000);
 
-$doors[0]->setOpen(true);
-$doors[1]->setOpen(true);
-$doors[2]->setOpen(false);
+$fron = array(
+    $c3 = new Country("Ba", "Br", 15000),
+    $c4 = new Country("Bu", "Br", 15000),
+);
 
-$property = new House();
-$property->setDoors($doors);
-$property->addDoor(new Door());
-print_r($property);
 
+
+$c1->setBorders($fron);
+$c2->setBorders($fron);
+$c3 = $c1->neighboring($c2);
+print_r($c3);
 ?>
 </pre> 
