@@ -76,3 +76,6 @@ int totalDeAndares().
 d) As classes Casa e edifício ficaram muito parecidas. 
 Crie a classe Imovel e coloque nela tudo o Casa e Edificio tem em comum. 
 Faça Imovel superclasse de Casa e Edificio. 
+[>>IR PARA O CÓDIGO<<](https://github.com/CaetanoMatheus/php-poo/tree/master/exercicio-07)
+
+

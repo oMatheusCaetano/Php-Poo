@@ -2,10 +2,23 @@
 <pre>
 <?php
 
-require_once("./exercicio-06/Date.php");
+require_once("./exercicio-07/House.php");
+require_once("./exercicio-07/Door.php");
 
-$p1 = new Date(31,4,-1);
-print($p1->showDate());
+$doors = [
+    new Door(),
+    new Door(),
+    new Door()
+];
+
+$doors[0]->setOpen(true);
+$doors[1]->setOpen(true);
+$doors[2]->setOpen(false);
+
+$property = new House();
+$property->setDoors($doors);
+$property->addDoor(new Door());
+print_r($property);
 
 ?>
-</pre>
+</pre> 

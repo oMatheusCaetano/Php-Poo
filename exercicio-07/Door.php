@@ -1,5 +1,5 @@
 <?php
-class Porta {
+class Door {
 
     private $open;
     private $color;

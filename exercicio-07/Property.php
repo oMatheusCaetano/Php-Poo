@@ -5,9 +5,19 @@ class Property {
     protected $doors = array();
     protected $floors;
 
-    public function quantityOfDoors() { return count($this->doors; )}
+    public function doorsOpen() { 
+        $aux = 0;
+        foreach ($this->doors as $door) {
+            $aux += $door->getOpen() == true ? 1 : 0;
+        }
+        return $aux;
+    }
+
+    public function quantityOfDoors() { return count($this->doors); }
 
     public function addFloor() { $this->floors++; }
+
+    public function addDoor($door) { array_push($this->doors, $door); }
 
     public function getColor() { return $this->color; }   
 
